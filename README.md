@@ -11,12 +11,14 @@ Before you begin, ensure you have met the following requirements:
 * You have reviewed the Express documentation. The documentation is here: https://expressjs.com/en/starter/installing.html
 * You have reviewed the Nodemon documentation. The documentation is here: https://www.npmjs.com/package/nodemon
 * You have reviewed the Mongoose documentation. The documentation is here: https://www.npmjs.com/package/mongoose
+* You have created a database using MongoDB
 
 ## Installing and using the bug tracker
 
 To install the bug tracker, follow React documentation. Most of these files come with the npx create-react-app command, the only changes are in the src file. The Youtube.js file is the main script of this web app. 
 
 Should you want to make changes to this app:
+* You must use your own MongoDB database and the DB URL must be in a .env file 
 * Review the file and the comments I've made in the code. 
 * You must follow the MVC design pattern.
 * You have reviewed the Express documentation for server and route information.
