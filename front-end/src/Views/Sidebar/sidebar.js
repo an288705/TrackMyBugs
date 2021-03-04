@@ -11,7 +11,7 @@ export default ()=>{
     function logOut(){
         dispatch(signOut());
     }
-    //note: you require admin to create a bug. turn this off if too difficult
+    //note: you require admin to create a bug.
     return(
         <div className="sidebar">
             <Link className='nav-link' to="/">
