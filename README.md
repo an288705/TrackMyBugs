@@ -1,6 +1,6 @@
 # Bug Tracker v1.0
 
-This project is my attempt at solving real world problems faced in the Tech industry. All companies need a way to track bugs, or else the development process would take much longer. In this project, I used React and Redux to create a full stack bug tracker. The front end is employed using a Model-View-Controller (MVC) design pattern. The backend is employed using a  REST API deployed on localhost. I used MongoDB as the database, and use Mongoose to connect to database. I created HTTP routes using Express. I used JavaScript to pull data from the API, create logic for the controllers, and manage views. The UI is styled using HTML and CSS 
+This project is my attempt at solving real world problems faced in the Tech industry. All companies need a way to track bugs, or else the development process would take much longer. In this project, I used React and Redux to create a full stack bug tracker. The front end is employed using the Model-View-Controller (MVC) design pattern. The backend is employed using a  REST API deployed on localhost. I used MongoDB as the database, and use Mongoose to connect to database. I created HTTP routes using Express. I used JavaScript to pull data from the API, create logic for the controllers, and manage views. The UI is styled using HTML and CSS 
 
 ## Prerequisites
 
