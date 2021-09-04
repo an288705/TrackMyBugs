@@ -11,14 +11,19 @@ mongoose.connect(process.env.DB_URL,{useNewUrlParser : true, useUnifiedTopology 
     console.log(err);
 })
 
-/*set up express server*/
-const PORT = process.env.PORT || 3500
+/*set up express server on whichever database port is open*/
+const PORT = process.env.PORT || 3500 
 
 app.use(express.urlencoded({extended : true}));
 app.use(cookieParser());
 app.use(cors());
 
 app.use('/auth',require('./Routes/Auth'));
+
+if(process.env.NODE_ENV==='production')
+{
+    app.use(express.static('front-end/build'));
+}
 
 app.listen(PORT,()=>{
     console.log('listening on '+PORT);
