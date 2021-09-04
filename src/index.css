@@ -1,0 +1,30 @@
+#root{
+    grid-template-columns : 20% 80%;
+    display : grid;
+    --prim-color : #cbd3ff;
+    color : rgb(7, 2, 2);
+    margin : -8px;
+}
+
+button{
+    background : rgb(196, 196, 196);
+    width: 95%;
+    border-radius : 5px;
+    padding : 5px 20px;
+    color : white;
+    font : normal bold 18px "Open Sans",sans-sarif;
+    text-align : center;
+    margin-bottom: 10px;
+}
+
+button:hover{
+    background: rgb(136, 136, 136);
+}
+
+.page-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    grid-column: 2; /*column 2 separates sidebar from page*/
+}
