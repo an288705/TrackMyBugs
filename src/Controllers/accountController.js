@@ -1,6 +1,6 @@
 import userModel from '../Models/userModel'
 
-const curl = 'http://localhost:3500/auth/';
+const curl = 'https://trackmybugs-server.herokuapp.com/auth/';
 var account = {};
 
 fetch(curl)

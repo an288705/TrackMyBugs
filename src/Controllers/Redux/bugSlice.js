@@ -35,7 +35,7 @@ const slice = createSlice({
             formBody = formBody.join("&");
 
             /*now pass in options to fetch to create a POST request*/
-            const curl = 'http://localhost:3500/auth/bug';
+            const curl = 'https://trackmybugs-server.herokuapp.com/auth/bug';
             const options = {
                 method : 'POST',
                 headers : {
@@ -74,7 +74,7 @@ const slice = createSlice({
             formBody = formBody.join("&");
 
             /*now pass in options to fetch to create a PUT request*/
-            const curl = 'http://localhost:3500/auth/bug';
+            const curl = 'https://trackmybugs-server.herokuapp.com/auth/bug';
             const options = {
                 method : 'PUT',
                 headers : {
@@ -95,7 +95,7 @@ const slice = createSlice({
             formBody = formBody.join("&");
 
             /*now pass in options to fetch to create a DELETE request*/
-            const curl = 'http://localhost:3500/auth/bug';
+            const curl = 'https://trackmybugs-server.herokuapp.com/auth/bug';
             const options = {
                 method : 'DELETE',
                 headers : {
