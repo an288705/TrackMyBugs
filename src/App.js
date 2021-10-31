@@ -1,6 +1,7 @@
 import React from 'react'
 import {useSelector} from 'react-redux'
-import Login from './Views/Login/login'
+import Login from './Views/Auth/login'
+import Register from './Views/Auth/register'
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom'
 import Sidebar from './Views/Sidebar/sidebar'
 import Dashboard from './Views/Pages/Dashboard/dashboard'
@@ -13,7 +14,8 @@ function App() {
 
   return (
     <Router>
-      {auth.LoggedIn ? 
+      {
+      auth.LoggedIn ? 
       <>
         <Sidebar/>
         <Switch>
@@ -26,7 +28,12 @@ function App() {
           </Route>
         </Switch>
       </> 
-      : <Login/>}
+      :
+      <>
+        <Route exact path="/"><Login/></Route>
+        <Route path="/register"><Register/></Route>
+      </>
+      }
     </Router>
   );
 }
