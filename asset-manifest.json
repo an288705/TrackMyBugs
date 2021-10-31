@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/TrackMyBugs/static/css/main.29968607.chunk.css",
-    "main.js": "/TrackMyBugs/static/js/main.ef7f1b88.chunk.js",
-    "main.js.map": "/TrackMyBugs/static/js/main.ef7f1b88.chunk.js.map",
+    "main.js": "/TrackMyBugs/static/js/main.5eeda519.chunk.js",
+    "main.js.map": "/TrackMyBugs/static/js/main.5eeda519.chunk.js.map",
     "runtime-main.js": "/TrackMyBugs/static/js/runtime-main.cc8f2c2e.js",
     "runtime-main.js.map": "/TrackMyBugs/static/js/runtime-main.cc8f2c2e.js.map",
     "static/js/2.d4563423.chunk.js": "/TrackMyBugs/static/js/2.d4563423.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.cc8f2c2e.js",
     "static/js/2.d4563423.chunk.js",
     "static/css/main.29968607.chunk.css",
-    "static/js/main.ef7f1b88.chunk.js"
+    "static/js/main.5eeda519.chunk.js"
   ]
 }
