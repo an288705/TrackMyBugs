@@ -31,7 +31,7 @@ export default ()=>{
                 <button type='submit' onClick={register}><Link to="/">Register</Link></button>
             </form>
             <footer className="footer">
-                <div>Bug Tracker v1.0</div>
+                <div>Bug Tracker v1.1</div>
             </footer>
         </div>   
     )
