@@ -28,9 +28,6 @@ export default ()=>{
                 {auth.admin && <li> 
                     <Link to="/create" className='nav-link'>Create Bugs</Link>
                 </li>}
-                <li>
-
-                </li>
             </ul>
             <button className="nav-link logout" onClick={logOut}>Log Out</button>
         </div>
