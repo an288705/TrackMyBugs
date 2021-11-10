@@ -8,7 +8,6 @@ import App from './App';
 //reducers
 import authReducer from './Controllers/Redux/authSlice'
 import bugReducer from './Controllers/Redux/bugSlice'
-import userReducer from './Controllers/Redux/userSlice'
 
 /*To stay logged in after refreshing, you must configure local storage to save state. If you
 recently started the app, set the default items to false. Otherwise let the controllers
@@ -23,8 +22,7 @@ if(start===undefined || start === null)
 //Redux configuration
 const reducer = combineReducers({
   auth : authReducer,
-  bugs : bugReducer,
-  user : userReducer
+  bugs : bugReducer
 });
 
 const store = configureStore({
