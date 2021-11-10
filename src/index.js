@@ -7,7 +7,7 @@ import App from './App';
 
 //reducers
 import authReducer from './Controllers/Redux/authSlice'
-import bugReducer from './Controllers/Redux/bugSlice'
+import bugReducer from './Models/bugSlice'
 
 /*To stay logged in after refreshing, you must configure local storage to save state. If you
 recently started the app, set the default items to false. Otherwise let the controllers

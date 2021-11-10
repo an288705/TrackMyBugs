@@ -1,12 +1,14 @@
 import {createSlice} from '@reduxjs/toolkit'
-import {retrieveBugs} from '../bugController'
-import bugModel from '../../Models/bugModel'
+//import {retrieveBugs} from '../bugController'
+import bugModel from './bugModel'
+
+//the current version does not properly update state after pulling bugs
 
 const slice = createSlice({
     name : 'bug',
     initialState : [],
     reducers : {
-        getBugs : (state)=>retrieveBugs(),
+        getBugs : (state)=>{},
         createBugs : (state,action)=>{
             /*use a POST http request to create a bug from the state payload passed in*/
             const {name, details, steps, version, priority, assigned,creator,time} = action.payload;
