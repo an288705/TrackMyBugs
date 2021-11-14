@@ -21,8 +21,18 @@ export default ()=>{
     }
 
     function logIn(e){
-        /*pass in the current state of login input and let the controller handle the back-end*/ 
+        /*Return the user info from controller. If
+        the return val is null, alert unsucessfull
+        login. else, set state*/
         dispatch(signIn(formInput));
+
+
+
+        //update local storage to true then convert LoggedIn and admin to bool
+        // localStorage.setItem('LoggedIn','true');
+        // localStorage.setItem('admin','true');
+        // state.LoggedIn = (localStorage.getItem('LoggedIn','true')=='true');
+        // state.admin = (localStorage.getItem('admin','true')=='true');
     }
 
     return(
