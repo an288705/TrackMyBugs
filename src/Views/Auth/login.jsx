@@ -10,7 +10,7 @@ export default ()=>{
         /*set initial credentials to "" if you didn't already log in*/
         name : "",
         password : ""
-    })//
+    })
 
     function inputChanged(e){
         /*change the state of the credentials to the name or password you typed*/
