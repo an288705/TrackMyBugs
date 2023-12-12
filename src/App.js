@@ -8,7 +8,7 @@ import Dashboard from './Views/Pages/Dashboard/dashboard'
 import ViewBugPage from './Views/Pages/viewBugs'
 import CreateBug from './Views/Components/bug-create-edit/bugForm'
 
-function App() {//
+function App() {
   /*there are three slices in the redux file: 'auth', 'bug', and 'user'. destructure 'auth'*/
   const {auth} = useSelector(state=>state); 
   
