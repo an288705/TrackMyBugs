@@ -11,7 +11,7 @@ import CreateBug from './Views/Components/bug-create-edit/bugForm'
 function App() {
   /*there are three slices in the redux file: 'auth', 'bug', and 'user'. destructure 'auth'*/
   const {auth} = useSelector(state=>state); 
-  // 
+  
   return (
     <Router>
       {
